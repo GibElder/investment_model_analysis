@@ -26,7 +26,7 @@ Copy
 Edit
 export OPENAI_API_KEY="sk-..."
 ```
-3. Prepare Data Files
+### 3. Prepare Data Files
 Place your raw CSV files in the project directory:
 
 institution1.csv
@@ -42,13 +42,13 @@ As Of Date, Model Family, Model Portfolio, Asset Class, Ticker, Weighting, Turno
 ```
 If formats differ, adjust the clean_csv_generic() function in the script.
 
-4. Run the Script
+### 4. Run the Script
 ```bash
 Copy
 Edit
 python compare_models.py
 ```
-How It Works
+### How It Works
 Cleans and parses each CSV file
 
 Converts the data into readable text
