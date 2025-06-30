@@ -19,11 +19,13 @@ This project provides a Python script to clean and compare model portfolio data 
 
 ```bash
 pip install pandas openai
-2. Set Your API Key
-bash
+### 2. Set Your API Key
+```
+```bash
 Copy
 Edit
 export OPENAI_API_KEY="sk-..."
+```
 3. Prepare Data Files
 Place your raw CSV files in the project directory:
 
@@ -33,17 +35,19 @@ institution2.csv
 
 Each file should include a header row starting with:
 
-pgsql
+```pgsql
 Copy
 Edit
 As Of Date, Model Family, Model Portfolio, Asset Class, Ticker, Weighting, Turnover Since Last Rebalance, Fund Name
+```
 If formats differ, adjust the clean_csv_generic() function in the script.
 
 4. Run the Script
-bash
+```bash
 Copy
 Edit
 python compare_models.py
+```
 How It Works
 Cleans and parses each CSV file
 
@@ -64,8 +68,4 @@ Avoid including sensitive information if using external APIs.
 
 Feel free to modify and adapt this project for your use case.
 
-yaml
-Copy
-Edit
 
----
