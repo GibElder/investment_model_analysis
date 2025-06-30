@@ -17,6 +17,7 @@ This project provides a Python script to clean and compare model portfolio data 
 
 ### 1. Install Dependencies
 
+```bash
 pip install pandas openai
 2. Set Your API Key
 bash
@@ -61,3 +62,10 @@ Edit the prompt in compare_models.py to customize the questions.
 
 Avoid including sensitive information if using external APIs.
 
+Feel free to modify and adapt this project for your use case.
+
+yaml
+Copy
+Edit
+
+---
