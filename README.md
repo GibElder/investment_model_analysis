@@ -22,8 +22,6 @@ pip install pandas openai
 ### 2. Set Your API Key
 ```
 ```bash
-Copy
-Edit
 export OPENAI_API_KEY="sk-..."
 ```
 ### 3. Prepare Data Files
@@ -36,16 +34,12 @@ institution2.csv
 Each file should include a header row starting with:
 
 ```pgsql
-Copy
-Edit
 As Of Date, Model Family, Model Portfolio, Asset Class, Ticker, Weighting, Turnover Since Last Rebalance, Fund Name
 ```
 If formats differ, adjust the clean_csv_generic() function in the script.
 
 ### 4. Run the Script
 ```bash
-Copy
-Edit
 python compare_models.py
 ```
 ### How It Works
