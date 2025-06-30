@@ -19,8 +19,9 @@ This project provides a Python script to clean and compare model portfolio data 
 
 ```bash
 pip install pandas openai
-### 2. Set Your API Key
 ```
+### 2. Set Your API Key
+
 ```bash
 export OPENAI_API_KEY="sk-..."
 ```
